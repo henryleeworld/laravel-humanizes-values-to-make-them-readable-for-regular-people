@@ -14,8 +14,9 @@ class ValuesController extends Controller
     public function humanize() 
     {
         $locale = App::currentLocale();
-        $year = Carbon::now()->format('Y');
-        $month = '02';
+        $now = Carbon::now();
+        $year = $now->format('Y');
+        $month = $now->format('m');
         $time = '12:00:00';
         $startTime = $year . '-' . $month . '-23 ' . $time;
         $endTime = $year . '-' . $month . '-26 ' . $time;

@@ -1,4 +1,4 @@
-# Laravel 11 將值人性化為可理解格式
+# Laravel 12 將值人性化為可理解格式
 
 引入 coduo 的 php-humanizer 套件來擴增將值人性化為可理解格式。
 
@@ -26,5 +26,5 @@ $ php artisan migrate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/YbRyhlb.png)
+![](https://i.imgur.com/agHN3jG.png)
 > 人性化值為可理解格式
